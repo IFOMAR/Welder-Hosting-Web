@@ -1,5 +1,5 @@
 {
-  "clientID": "YOUR_CLIENT_ID",
-  "clientSecret": "YOUR_CLIENT_SECRET",
-  "callbackURL": "https://YOUR_PROJECT_NAME.codesandbox.io/auth/discord/callback"
+  "clientID": "1352500365727367214",
+  "clientSecret": "FVhu8y9e7HVD6ynImU5taLVGgSslMrNa",
+  "callbackURL": "https://ygh32c-3000.csb.app/auth/discord/callback"
 }
