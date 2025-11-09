@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <title>Welder Hosting</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🔥 Welder Hosting</h1>
+    <button id="loginBtn" class="btn-red">تسجيل الدخول عبر Discord</button>
+    <button id="logoutBtn" class="btn-gray" style="display:none">تسجيل الخروج</button>
+  </header>
+
+  <main>
+    <h2>رصيد النقاط: <span id="points">0</span></h2>
+    <button id="earnBtn">ابدأ مهمة + 10 نقاط (انتظر 5 ثواني)</button>
+
+    <h3>إنشاء سيرفر</h3>
+    <select id="serverType">
+      <option value="minecraft">Minecraft</option>
+      <option value="bot">Bot Hosting</option>
+    </select>
+
+    <select id="botLang" style="display:none">
+      <option value="nodejs">Node.js</option>
+      <option value="python">Python</option>
+      <option value="javascript">JavaScript</option>
+      <option value="lua">Lua</option>
+    </select>
+
+    <input type="number" id="priceInput" placeholder="أدخل السعر بالنقاط" />
+
+    <button id="buyBtn">إنشاء وشراء السيرفر</button>
+
+    <h3>مشترياتك</h3>
+    <ul id="purchasesList"></ul>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
