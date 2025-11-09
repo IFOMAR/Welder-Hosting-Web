@@ -1,0 +1,17 @@
+{
+  "name": "welder-hosting",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "dependencies": {
+    "express": "^4.19.2",
+    "express-session": "^1.17.3",
+    "passport": "^0.7.0",
+    "passport-discord": "^0.1.4",
+    "fs-extra": "^11.2.0",
+    "body-parser": "^1.20.2"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}
